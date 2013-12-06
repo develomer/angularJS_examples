@@ -1,0 +1,54 @@
+﻿André-Marie Ampère[6]	1775–1836	French	Electric current [7]	ampere (A)
+
+
+William Thomson, 1st Baron Kelvin[8]	1824–1907	British (Scottish)	Thermodynamic temperature[9]	kelvin (K)
+(Base unit)	
+
+Blaise Pascal[10]	1623–1662	French	Pressure[11]	pascal (Pa)	
+
+
+Isaac Newton[12]	1643–1727	British (English)	Force[13]	newton (N)	
+
+
+Anders Celsius[14]	1701–1744	Swedish	Temperature[15]	degree Celsius (°C)
+
+Charles-Augustin de Coulomb[16]	1736–1806	French	Electric charge[17]	coulomb (C)	
+
+
+James Watt[18]	1736–1819	British (Scottish)	Power[19]	watt (W)
+
+
+Alessandro Volta [20]	1745–1827	Italian	Electric potential[21]	volt (V)	
+
+
+Georg Simon Ohm[22]	1789–1855	German	Electrical resistance[23]	ohm (Ω)	
+
+
+Michael Faraday[24]	1791–1867	British (English)	Capacitance[25]	farad (F)	
+
+
+Joseph Henry[26]	1797–1878	American	Inductance[27]	henry (H)	
+
+
+Wilhelm Eduard Weber[28]	1804–1891	German	Magnetic flux[29]	weber (Wb)	
+
+
+Ernst Werner von Siemens [30]	1816–1892	German	Conductance[31]	siemens (S)	
+
+
+James Prescott Joule[32]	1818–1889	British (English)	Energy[33]	joule (J)	
+
+
+Antoine Henri Becquerel[34]	1852–1908	French	Radioactivity[35]	becquerel (Bq)	
+
+
+Nikola Tesla [36]	1856–1943	Serbian[Note 3]-American	Magnetic flux density[37]	tesla (T)	
+
+
+Heinrich Rudolf Hertz[38]	1857–1894	German	Frequency[39]	hertz (Hz)	
+
+
+Rolf Maximilian Sievert[40]	1896–1966	Swedish	Dose equivalent of radiation[41]	sievert (Sv)	
+
+
+Louis Harold Gray [42]	1905–1965	British (English)	Absorbed dose of radiation[43]	gray (Gy)	

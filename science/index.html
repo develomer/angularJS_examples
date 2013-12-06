@@ -1,0 +1,32 @@
+﻿<html lang="fr" ng-app="scientistcatApp">
+<head>
+    <title>Scientists</title>
+    <script src="lib/angular/angular.js"></script>
+    <script src="js/controllers.js" charset="us-ascii"></script>
+
+</head>
+<body ng-controller="ScientistListCtrl">
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span2">
+                <!--Sidebar content-->
+                Search: <input ng-model="query">
+
+            </div>
+            <div class="span10">
+                <!--Body content-->
+
+                <ul class="scientists">
+                    <li ng-repeat="scientist in scientists | filter:query">
+                        {{scientist.name}}
+                        <p>{{scientist.life}}</p>
+                        <p>{{scientist.nationality}}</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
