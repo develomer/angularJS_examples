@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <script src="http://code.angularjs.org/1.2.8/angular.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h4 id="source_tic-tac-toe">Tic-Tac-Toe</h4>
+    <div ng-controller="TicTacToeCntl">
+        Sonraki hamle: {{nextMove}}
+        <div class="winner" ng-show="winner">{{winner}} oyuncusu kazandý!</div>
+        <table class="board">
+            <tr ng-repeat="row in board track by $index" style="height:15px;">
+                <td ng-repeat="cell in row track by $index" ng-style="cellStyle"
+                    ng-click="dropPiece($parent.$index, $index)">
+                    {{cell}}
+                </td>
+            </tr>
+        </table>
+        <button ng-click="reset()">Tahtayý sýfýrla</button>
+    </div>
+</body>
+</html>

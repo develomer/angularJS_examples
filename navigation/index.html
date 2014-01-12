@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Navigation</title>
+
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
+
+		<!-- The main CSS file -->
+		<link href="style.css" rel="stylesheet" />
+	</head>
+
+	<body ng-app>
+
+		<nav class="{{active}}" ng-click="$event.preventDefault()">
+			<a href="#" class="home" ng-click="active='Makineler'">Makineler</a>
+			<a href="#" class="projects" ng-click="active='Servisler'">Servisler</a>
+			<a href="#" class="services" ng-click="active='Cihazlar'">Cihazlar</a>
+		</nav>
+
+		<p ng-hide="active">Lütfen görüntülemek istediğiniz bölümü seçin</p>
+		<p ng-show="active">Şu an <b>{{active}}</b> görüntüleniyor</p>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	</body>
+</html>

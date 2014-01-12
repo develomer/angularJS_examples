@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Order Form</title>
+
+		<link href="http://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,700" rel="stylesheet" />
+
+		<link href="style.css" rel="stylesheet" />
+	</head>
+
+	<body ng-app ng-controller="OrderFormController">
+
+		<form>
+
+			<h1>Laptop ve ekleri</h1>
+
+			<ul>
+				<li ng-repeat="tool in tools" ng-click="toggleActive(tool)" ng-class="{active:tool.active}">
+					{{tool.name}} <span>{{tool.price | currency}}</span>
+				</li>
+			</ul>
+
+			<div class="total">
+				Toplam: <span>{{total() | currency}}</span>
+			</div>
+
+		</form>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

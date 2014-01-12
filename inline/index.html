@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="windows-1252"/>
+		<title>Inline Editor</title>
+
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
+
+		<link href="style.css" rel="stylesheet" />
+	</head>
+
+	<body ng-app ng-controller="InlineEditorController">
+
+		<div id="main" ng-click="hideTooltip()">
+
+			<div class="tooltip" ng-click="$event.stopPropagation()" ng-show="showtooltip">
+
+				<input type="text" ng-model="value" />
+			</div>
+			<p ng-click="toggleTooltip($event)">{{value}}</p>
+
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
